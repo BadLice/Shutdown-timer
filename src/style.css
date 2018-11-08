@@ -1,0 +1,60 @@
+*
+{
+    -fx-focus-color: black;
+    -fx-faint-focus-color: transparent;
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button,
+.spinner:disabled,
+.spinner:disabled > *
+{
+    -fx-body-color: #c6c6c6;
+    -fx-opacity: 1.0;
+}
+
+.spinner .increment-arrow-button:hover,
+.spinner .decrement-arrow-button:hover {
+    /* interpolate color between yellow and red based on first color brightness */
+    -fx-body-color:  #9c9c9c;
+}
+
+.spinner .increment-arrow-button:hover:pressed,
+.spinner .decrement-arrow-button:hover:pressed,
+.spinner .increment-arrow-button:pressed,
+.spinner .decrement-arrow-button:pressed
+{
+    /* interpolate color between yellow and red based on first color brightness */
+    -fx-body-color: black;
+}
+
+.spinner .text-field
+{
+    -fx-background-color: #e2e2e2;
+}
+
+.spinner
+{
+    -fx-background-radius: 0px;
+}
+
+.anchor-pane
+{
+    -fx-background-color: black;
+}
+
+.button
+{
+    -fx-background-color:#aaaaaa;
+}
+.button:hover
+{
+    -fx-border-width: 1px;
+    -fx-border-color:black;
+}
+.button:pressed
+{
+    -fx-border-width: 1px;
+    -fx-border-color:red;
+}
+
